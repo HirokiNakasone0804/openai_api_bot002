@@ -49,10 +49,10 @@ def communicate():
 
 
 # ユーザーインターフェイスの構築
-st.title("CHINTAIアシスタント")
-st.write("賃貸仲介・管理のことならなんでもお聞きください。")
+st.title("CHINTAIロープレ先輩")
+st.write("賃貸仲介・管理についてロールプレイングが可能です。")
 
-user_input = st.text_input("質問をどうぞ。", key="user_input", on_change=communicate)
+user_input = st.text_input("「スタート」とメッセージを送るとロールプレイングが開始します。", key="user_input", on_change=communicate)
 
 if st.session_state["messages"]:
     messages = st.session_state["messages"]

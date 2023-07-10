@@ -35,6 +35,7 @@ if "messages" not in st.session_state:
         2.回答の正確さ
         3.回答の分かりやすさ
         4.回答の親切さ
+        
         """}
         ]
 

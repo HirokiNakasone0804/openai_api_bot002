@@ -49,8 +49,8 @@ def communicate():
 
 
 # ユーザーインターフェイスの構築
-st.title("CHINTAIロープレ先輩")
-st.write("賃貸仲介・管理についてロールプレイングが可能です。")
+st.title("CHINTAIロープレ_TEST")
+st.write("営業として必要な対応力・表現力を身につけるためのロールプレイングツールです。質問に適切に回答することでAIがあなたの回答の採点をしてくれます。")
 
 user_input = st.text_input("「スタート」とメッセージを送るとロールプレイングが開始します。", key="user_input", on_change=communicate)
 
